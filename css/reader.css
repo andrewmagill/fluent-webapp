@@ -1,0 +1,55 @@
+html, body, .main {
+  height: 100%;
+}
+
+.main {
+ 
+}
+
+.col {
+  height: 100%;
+}
+
+.col.left, .col.right {
+  background-color: blue;
+}
+
+.col.middle {
+  width: 600px;
+  background-color: pink;
+}
+
+.row {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+}
+
+.flex.self {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+}
+
+.vertical {
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+}
+
+.flex.children {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  
+  display: box;
+  box-orient: horizontal;
+  box-pack: center;
+  box-align: center;
+}
